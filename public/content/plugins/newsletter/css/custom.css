@@ -1,0 +1,75 @@
+.newsletter_modal {
+	box-shadow: 0 1px 11px 0 rgb(0 0 0 / 15%);
+}
+.newsletter_registration {
+    padding: 20px;
+    border-radius: 15px;
+    background: #fff;
+}
+.newsletter-modal-outer h2.text_postions {
+    position: relative;
+    padding: 10px 0;
+    margin: 0 0 30px 0;
+    font-size: 18px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #000;
+}
+.newsletter-modal-outer h2.text_postions:before {
+    position: absolute;
+    bottom: -5px;
+    width: 46px;
+    height: 5px;
+    content: "";
+    background: #ec4a4c;
+}
+
+.newsletter-modal-outer p {
+    position: relative;
+}
+.newsletter-modal-outer input {
+    display: block;
+    width: 100%;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+.newsletter-modal-outer input[type="text"],
+.newsletter-modal-outer input[type="email"] {
+    padding: 14px 8px;
+    font-size: 14px;
+    border: 1px solid #dbdbdb;
+    border-radius: 10px;
+    background: #fff;
+}
+.newsletter-modal-outer input[type="text"]:focus,
+.newsletter-modal-outer input[type="email"]:focus {
+    background: #fff;
+	outline: none;
+}
+.newsletter-modal-outer input.btn-submit,
+.newsletter-modal-outer input.btn-close {
+    display: block;
+    padding: .8em 0;
+    line-height: 1em;
+    cursor: pointer;
+    text-transform: uppercase;
+    color: #fff !important;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+   
+}
+.newsletter-modal-outer input.btn-submit {
+	 background: #ec4a4c !important;
+	 font-weight: bold;
+}
+.newsletter-modal-outer input.btn-close {
+	 background: #aaa !important;
+	 display: inline-block;
+    width: auto;
+    padding: 0.8em;
+}
+.cf-messages { text-align: center; }
+.cf-error-message { color: red; }
+.cf-success-message { color: green; }
